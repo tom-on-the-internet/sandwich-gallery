@@ -5,10 +5,15 @@ const sandwichThought = [
   "What a yummy sandwich",
   "Munch munch munch",
   "Get in my belly you yummy sandwich",
-  "Uh, yes please!",
+  "Uhhh, yes please!",
   "Christ! Now that's a sandwich",
   "Sandwich time!!",
   "Look at that thing! Wowza!",
+  "I like. Very nice!",
+  "Now you're speaking my language.",
+  "It's lunch time somewhere.",
+  "I'll start keto tomorrow.",
+  "That thing is calling my name.",
 ];
 
 fetch(
@@ -26,7 +31,6 @@ fetch(
       const thoughtIndex = Math.floor(Math.random() * sandwichThought.length);
       const saying = sandwichThought[thoughtIndex];
       const utterance = new SpeechSynthesisUtterance(saying);
-      utterance.rate = 0.7;
       synth.speak(utterance);
     });
     $sandwich.src = imageURL;
