@@ -5,7 +5,7 @@ const sandwichThought = [
   "What a yummy sandwich",
   "Munch munch munch",
   "Get in my belly you yummy sandwich",
-  "Uhhh, yes please!",
+  "Uhhh... yes please!",
   "Christ! Now that's a sandwich",
   "Sandwich time!!",
   "Look at that thing! Wowza!",

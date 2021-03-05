@@ -7,3 +7,7 @@ img {
   max-width: 80vw;
   max-height: 60vh;
 }
+
+a {
+  font-size: 2em;
+}
